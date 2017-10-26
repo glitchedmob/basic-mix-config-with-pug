@@ -1,5 +1,4 @@
 var mix = require('laravel-mix');
-mix
 mix.pug = require('laravel-mix-pug');
 
 mix.js('src/js/app.js', 'public/js')
