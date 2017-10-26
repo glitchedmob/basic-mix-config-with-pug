@@ -1,0 +1,7 @@
+#hello {
+	font-size: 40px;
+	color: #333333;
+	&:hover {
+		text-decoration: underline;
+	}
+}

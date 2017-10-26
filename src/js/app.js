@@ -1,0 +1,1 @@
+document.querySelector('#hello').textContent = 'Hello World';
