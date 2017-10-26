@@ -5,5 +5,5 @@ mix.js('src/js/app.js', 'public/js')
 	.sass('src/sass/app.scss', 'public/css')
 	.pug('src/pug/*.pug', 'public', {seeds: null})
 	.sourceMaps()
-	.setPublicPath('public')
+	.setPublicPath('public');
 	
