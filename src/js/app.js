@@ -1,1 +1,6 @@
-document.querySelector('#hello').textContent = 'Hello World';
+// Import jquery and attach to window
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+
+require('materialize-css');
+
